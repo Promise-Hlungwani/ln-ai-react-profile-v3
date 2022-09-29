@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sections {
+  width: 100%;
+  height: 100vh;
+}
+/* -----------Header page------------- */
+.header {
+  background-color: rgb(20, 20, 20);
+  padding: 45px 45px;
+}
+
+.header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.header a.split {
+  float: right;
+  background-color: #850606;
+  color: white;
+}
+
+.header a.split:hover {
+  float: right;
+  background-color: #686868;
+  color: white;
+}
+/* -----------main page------------- */
+.main {
+  height: 100vh;
+  background-color: rgb(205, 206, 207);
+}
+
+.hr-image {
+  background-image: url('./images/hero.jpg');
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hr-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+/* -----------About page------------- */
+.about {
+  width: 100%;
+  height: 130vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.column-2 {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 475px;
+  margin: 30px;
+  margin-right: 30px;
+
+  margin-bottom: 70px;
+  box-sizing: border-box;
+  background-color: #020202;
+  line-height: 2;
+}
+
+.large-profile {
+  margin-top: 100px;
+  background: url('./images/me.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.desc {
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+/* -----------Contact page------------- */
+.contact {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(160, 49, 49);
+}
+
+.contact-form {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 700px;
+}
+.contact-form {
+  margin-left: 1rem;
+  height: 50%;
+  width: 100;
+}
+
+input {
+  border: none;
+  border-bottom: 0.1rem solid #e6e6e6;
+  width: 90%;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+  outline: none;
+}
+label {
+  color: rgb(43, 42, 42);
+  font-size: 1.1rem;
+}
+::placeholder {
+  color: #cccccc;
+  font-size: 1rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#submit {
+  height: 3.2rem;
+  width: 14rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #221f21, #696969);
+  margin-left: 25%;
+  color: white;
+  margin-top: 1.2rem;
+}
+
+.form-element {
+  margin-top: 0.5rem;
+}
+
+/* -----------Footer page------------- */
+.footer {
+  background-color: rgb(24, 24, 24);
+  padding: 25px 25px;
+}
